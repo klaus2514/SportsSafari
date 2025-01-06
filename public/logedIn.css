@@ -1,0 +1,319 @@
+header {
+    background: url("https://cdn.pixabay.com/photo/2018/06/12/20/17/soccer-3471402_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 916px;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    z-index: 10; /* Ensure nav is above the background */
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.search{
+    height: 100px;
+    width: 800px;
+    align-content: center;
+
+}
+.search input{
+    width: 205px;
+    border-radius: 50px;
+    margin-left: 402px;
+    margin-top: 1rem;
+    height: 30px;
+}
+    
+.search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+    
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 250px;
+}
+
+nav ul li {
+align-content: center;
+    margin-right: 20px;
+    justify-content: end;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold; 
+
+}
+main{
+    background-color: #c9c8c7;
+    height: 650px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+}
+
+.heading{
+    height: 450px;
+    width: 450px;
+    margin-left: 80px;
+    margin-top: 3rem;
+}
+.heading{
+    height: 25rem;
+    width: 40rem;
+    font-family: "Playpen Sans", cursive;
+  font-optical-sizing: auto;
+  font-size: 70px;
+  font-weight: 800;
+  font-style: normal;
+  color: whitesmoke;
+}
+.near{
+    height: 100px;
+    width: 350px;
+}
+.near h1{
+    padding-top: 25px;
+    text-align: center;
+}
+div.scroll-container {
+    border-radius: 25px;
+    display: flex;
+    height: 500px;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+div.scroll-container img {
+    align-self: center;
+    height: 350px;
+    width: 600px;
+    padding: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+div.scroll-container img:hover{
+    transform: scale(1.1);
+}
+summary{
+    display: flex;
+}
+.services{
+    height: 790px;
+    width: 50%;
+    background-color: rgba(222, 184, 135,0.4);
+}
+
+.Our-serv-header{
+    text-align: center;
+        font-family: "Kanit", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        font-style: italic;
+}
+
+.Our-serv-para ul{
+   line-height: 80px;
+   font-family: "Kanit", sans-serif;
+   font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+}
+.sport-logo-div{
+    height: 790px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.sports-log{
+    height: 240px;
+    width: 250px;
+}
+.sportlog{
+    height: 240px;
+    width: 250px;
+}
+section{
+    height: 2000px;
+    width: 100%;
+    background-color: blue;
+}
+.discover-inner{
+    height: 800px;
+    width: 1200px;
+    background-color: aqua;
+    margin: auto;
+    border-radius: 25px;
+}
+.discover-text{
+    height: 150px;
+    width: 800px;
+    display: flex;
+}
+.discover-text h2{
+    height: 100px;
+    width: 100%;
+    text-align:center;
+    
+}
+.discover-text .discover-text-side{
+   text-align:right; 
+}
+.venues-pics{
+    height: 300px;
+    width: 450px;
+    border-radius: 25px;
+    margin-left: 50px;
+    display: inline-block;
+}
+.venues-pics img{
+    height: 300px;
+    width: 450px;
+    border-radius: 25px;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-section {
+    text-align: center;
+}
+
+.logo-section img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.links-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-section ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.links-section li {
+    margin-bottom: 10px;
+}
+
+.links-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 5px;
+}
+
+.copyright {
+    text-align: center;
+}
+/* Dropdown Button Style */
+.drpbtn {
+    background-color: transparent; /* No background */
+    border: none; /* No border */
+    padding: 0; /* No padding */
+    height: auto;
+    width: auto;
+    color: white; /* Icon color */
+    cursor: pointer;
+}
+.drpbtn::after {
+    display: none !important;
+}
+/* Wrapper to ensure horizontal layout */
+.services-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Fix any layout issue with summary */
+summary {
+    display: flex !important; 
+    flex: 1;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+/* Ensure .services and .sport-logo-div take proper space */
+.services {
+    flex: 1;
+    min-width: 50%;
+    padding: 20px;
+    background-color: rgba(222, 184, 135, 0.4);
+    border-radius: 15px;
+}
+
+.sport-logo-div {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    min-width: 50%;
+}
+
+/* Fix layout issue with images */
+.sports-log {
+    height: 180px;
+    width: 180px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sportlog {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+#map {
+    height: 400px;
+    width: 100%;
+  }
