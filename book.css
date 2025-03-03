@@ -1,0 +1,246 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  background-color: #cebebeff;
+  height: 116px;
+  width: 100%;
+  object-position: 50% 50%;
+  display: inline-block;
+  border-radius: 25px;
+}
+
+nav {
+  height: 100px;
+  width: 100vw;
+  display: flex;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+.logo img {
+  height: 100px;
+  width: 100px;
+}
+
+.search {
+  height: 100px;
+  width: 800px;
+  align-content: center;
+}
+
+.search input {
+  width: 205px;
+  border-radius: 50px;
+  margin-left: 402px;
+}
+
+.search input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 250px;
+}
+
+nav ul li {
+  align-content: center;
+  margin-top: 35px;
+  margin-right: 20px;
+  justify-content: end;
+  padding: 8px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Container for Schedule */
+.schedule-container {
+  background-color: #232323;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 80%;
+  max-width: 600px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Booking Days Section */
+.booking-days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.booking-day {
+  margin: 20px;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  width: 22%;
+  transition: background-color 0.3s;
+}
+
+.booking-day:hover {
+  background-color: #45a049;
+}
+
+/* Time Slots Section */
+.time-slots {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-slot {
+  background-color: white;
+  color: black;
+  margin: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  width: 52%;
+  transition: background-color 0.3s;
+}
+
+.time-slot:hover {
+  background-color: #0b7dda;
+}
+
+/* Hover effects for interactive elements */
+.booking-day:active, .time-slot:active {
+  transform: scale(0.98);
+}
+
+/* Button styles */
+button {
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 245px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: greenyellow;
+}
+
+/* Footer styles */
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 25px;
+  margin-top: 150px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+.logo-section {
+  text-align: center;
+}
+
+.logo-section img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-section ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.links-section li {
+  margin-bottom: 10px;
+}
+
+.links-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 5px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* Active state styles for booking days and time slots */
+.booking-day.selected {
+  background-color: #4CAF50 !important; /* Green color when selected */
+  color: white;
+}
+
+.time-slot.selected {
+  background-color: #0b7dda !important; /* Blue color when selected */
+  color: white;
+}
+
+.booking-day:active, .time-slot:active {
+  transform: scale(0.98);
+}
+
+/* Active class for toggled state */
+.active {
+  background-color: green;
+  color: white;
+}
+a{
+  text-decoration: none;
+  color: black;
+}

@@ -1,0 +1,123 @@
+header{
+background-color: #cebebeff;
+  height: 116px;
+  width: 100%;
+  object-position: 50% 50%;
+  display: inline-block;
+  border-radius: 25px;
+}
+nav{
+  height: 100px;
+  width: 100vw;
+  display: flex;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+}
+.logo img{
+  height: 100px;
+  width: 100px;
+}
+.search{
+  height: 100px;
+  width: 800px;
+  align-content: center;
+}
+.search input{
+  width: 205px;
+  border-radius: 50px;
+  margin-left: 402px;
+}
+  
+.search input[type="text"] {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+  
+nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      margin-left: 250px;
+}
+  
+nav ul li {
+  align-content: center;
+      margin-right: 20px;
+      justify-content: end;
+      margin-top: 45px;
+}
+  
+nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold; 
+  
+}
+footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-section {
+  text-align: center;
+}
+
+.logo-section img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.links-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-section ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.links-section li {
+  margin-bottom: 10px;
+}
+
+.links-section a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 5px;
+}
+
+.copyright {
+  text-align: center;
+}
+.congo{
+  height: 400px;
+  width: 500px;
+  margin-left: 500px;
+}
+h1{
+  margin-top: 200px;
+  color: green;
+}

@@ -1,0 +1,166 @@
+nav{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    background-color: #d4e157;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+}
+.search{
+    height: 100px;
+    width: 800px;
+    align-content: center;
+}
+.search input{
+    width: 205px;
+    border-radius: 50px;
+    margin-left: 402px;
+}
+    
+.search input[type="text"] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+    
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        margin-left: 250px;
+}
+    
+nav ul li {
+    align-content: center;
+        margin-right: 20px;
+        justify-content: end;
+        margin-top: 10px;
+}
+    
+nav ul li a {
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold; 
+    
+}
+.books{
+    height:500px;
+    width: 600px;
+    margin-left: 400px;
+    margin-top: 50px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+body{
+    text-align: center;
+    line-height: 40px;
+}
+h1{
+    margin-left: 550px;
+}
+.drpbtn::after {
+    display: none !important;
+}
+.drpbtn {
+    background-color: transparent; /* No background */
+    border: none; /* No border */
+    padding: 0; /* No padding */
+    height: auto;
+    width: auto;
+    color: white; /* Icon color */
+    cursor: pointer;
+}
+form {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    gap: 15px; /* Add space between elements */
+  }
+  
+  /* Input fields */
+  input {
+    width: 100%;
+    padding: 10px; /* Internal padding */
+    border: 1px solid #ccc; /* Border styling */
+    border-radius: 4px; /* Rounded input corners */
+    font-size: 14px; /* Input text size */
+  }
+  
+  /* Submit button */
+  .Buttonn {
+    background-color: #007bff; /* Button background color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Button padding */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Button text size */
+  }
+  
+  Buttonn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-top: 500px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo-section {
+    text-align: center;
+}
+
+.logo-section img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.links-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-section ul {
+    list-style: none;
+    padding: 10px;
+}
+
+.links-section li {
+    margin-bottom: 10px;
+}
+
+.links-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 5px;
+}
+
+.copyright {
+    text-align: center;
+}

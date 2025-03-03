@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book</title>
+    <link rel="stylesheet" href="book.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="./images/homelog.gif" alt="Your Logo">
+            </div>
+            <div class="search">
+              <input type="text" placeholder="Search...">
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+              </div>
+                <div class="navbar">
+                <ul>
+                  <li><a href="logedIn.html">Home</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="about.html">Contact</a></li>
+                    <div class="btn-group">
+                        <button type="button" class=" dropdown-toggle drpbtn" data-bs-toggle="dropdown" >
+                                        <li><a href=""><i class="fa-solid fa-user"></i></a></li>                               
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Your Profile</a></li>
+                          <li><a class="dropdown-item" href="#">You booking</a></li>
+                          <li><a class="dropdown-item" href="#">Settings</a></li>
+                         
+                          <li><a class="dropdown-item" href="#">Log Out</a></li>
+                        </ul>
+                      </div>
+                </ul>
+                </div>
+            </div>
+        </nav>
+       
+    </header>
+    <main>
+       
+        <h2>Select your booking</h2>
+        <div class="booking-days">
+            <div class="booking-day" onclick="toggleDateActive(this)">30-11-2024</div>
+            <div class="booking-day" onclick="toggleDateActive(this)">01-12-2024</div>
+            <div class="booking-day" onclick="toggleDateActive(this)">02-12-2024</div>
+            <div class="booking-day" onclick="toggleDateActive(this)">03-12-2024</div>
+        </div>
+    </div>
+    
+    <!-- Choose timeslot -->
+    <div class="section">
+    
+        <div class="time-slots">
+            <div class="time-slot" onclick="toggleTimeSlotActive(this)">9AM - 10PM</div>
+            <div class="time-slot" onclick="toggleTimeSlotActive(this)">10PM - 12PM</div>
+            <div class="time-slot" onclick="toggleTimeSlotActive(this)">2PM - 3PM</div>
+            <div class="time-slot" onclick="toggleTimeSlotActive(this)">4PM - 5PM</div>
+        </div>
+    </div>
+    <button><a href="Booking.html">Book now</a></button>
+    
+        </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <div class="logo-section">
+                    <img src="./IconsFor Use/WhatsApp Image 2024-11-01 at 21.22.49_e1c8eeee.jpg" alt="Logo">
+                </div>
+    
+                <div class="links-section">
+                    <ul>
+                        <li><a href="#">Weebly Themes</a></li>
+                        <li><a href="#">Pre-Sale FAQs</a></li>
+                        <li><a href="#">Submit a Ticket</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Theme Tweak</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">Showcase</a></li>
+                        <li><a href="#">Widgetkit</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Affiliates</a></li>
+                        <li><a href="#">Resources</a></li>
+                    </ul>
+                </div>
+    
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+                </div>
+    
+                <div class="copyright">
+                    <p>&copy; Copyright. All rights reserved.</p>
+                </div>
+            </div>
+            <h5>Made by Abutalaha, Manjeet & Vibhanshu</h5>
+        </footer>
+        <script src="book.js"></script>
+</body>
+</html>
